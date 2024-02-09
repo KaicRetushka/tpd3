@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+	width: 100%;
+	min-height: 9vh;
+	top: 0;
+	background-color: #A436FF;
+	position: fixed;
+	display: flex;
+	align-items: center;
+}
+
+#time{
+	height: 6vh;
+	width: 5%;
+	margin: 1%;
+}
+
+#circle{
+	height: 4vh;
+	width: 2%;
+	border-radius: 100%;
+	position: absolute;
+	background: #CFCFCF;
+	left: 3.6%;
+	transition: right 0.3s ease-in-out;
+	transition: left 0.3s ease-in-out;
+}
+
+
+#threepalki{
+	height: 4vh;
+	width: 2%;
+	margin: 1%;
+	position: absolute;
+	right: 0; 
+}
+
+.block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 25vh;
+	width: 17%;
+	background-color: #A436FF;
+
+	position: absolute;
+	top: 10vh;
+	right: -21%;
+	transition: right 0.5s ease-in-out;
+	border-radius: 5px;
+	border: 5px solid yellow;
+	}
+
+.block:hover{
+	right: 1%;
+}
+
+#threepalki:hover{
+	transform: rotate(90deg);
+}
+#threepalki:hover + .block{
+	right: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.naz{
+	color: black;
+	margin: 5%;
+	font-size: 4vh;
+	font-family: 'Gabarito', cursive; 
+/*	https://fonts.google.com/share?selection.family=Gabarito:wght@400;500;600;700;800;900*/
+}
+
+
+.naz:hover{
+	color: yellow;
+}
+
+.naz:hover{
+	color: yellow;
+}
+
+
+main{
+	padding: 5%;
+	margin-top: 9vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+ol{
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+li::marker{
+	color: #A436FF;
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+}
+.zagolovok{
+	width: 65%;
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+    color: white;
+}
+.ocntext{
+	color: white;
+	margin: 1%;
+	font-size: 24px;
+	font-family: 'Gabarito', cursive;
+}
+
+li a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	min-height: 15vh;
+	background-color: #2a2136;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+#AllCot{
+	display: flex;
+	align-items: center;
+}
+
+#Cot{
+	width: 25%;
+	height: 5%;
+}
+
+#textfooter{
+	color: white;
+	margin: 1%;
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+}
+
+.imgcot{
+	min-height: 15%;
+	width: 15%;
+	margin: 1%;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header{
+	width: 100%;
+	min-height: 9vh;
+	top: 0;
+	background-color: #A436FF;
+	position: fixed;
+	display: flex;
+	align-items: center;
+}
+
+
+#time{
+	height: 6vh;
+	width: 5%;
+	margin: 1%;
+}
+
+#circle{
+	height: 4vh;
+	width: 2%;
+	border-radius: 100%;
+	position: absolute;
+	background-color: yellow;
+	left: 1.37%;
+	transition: right 0.3s ease-in-out;
+	transition: left 0.3s ease-in-out;
+}
+
+
+
+#threepalki{
+	height: 4vh;
+	width: 2%;
+	margin: 1%;
+	position: absolute;
+	right: 0; 
+}
+
+.block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 25vh;
+	width: 17%;
+	background-color: #A436FF;
+
+	position: absolute;
+	top: 10vh;
+	right: -21%;
+	transition: right 0.5s ease-in-out;
+	border-radius: 5px;
+	border: 5px solid yellow;
+	}
+
+.block:hover{
+	right: 1%;
+}
+
+#threepalki:hover{
+	transform: rotate(90deg);
+}
+#threepalki:hover + .block{
+	right: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.naz{
+	color: white;
+	margin: 5%;
+	font-size: 4vh;
+	font-family: 'Gabarito', cursive; 
+/*	https://fonts.google.com/share?selection.family=Gabarito:wght@400;500;600;700;800;900*/
+}
+
+
+.naz:hover{
+	color: yellow;
+}
+
+
+#zag{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 9vh;
+	min-height: 100vh;
+	background-color: #A436FF;
+}
+
+#zag div{
+	width: 45%;
+}
+
+#logo{
+	height: 35%;
+	width: 35%;
+
+}
+
+#leadText{
+
+	width: 100%;
+	color: white;
+	margin: 1%;
+	font-size: 100px;
+	font-family: 'Gabarito', cursive;
+	margin-top: 9vh;
+}
+
+#cllead{
+	width: 100%;
+	color: white;
+	margin: 1%;
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+}
+
+#AllArticle{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.Article{
+
+	display: flex;
+	margin-top: 1%;
+	align-items: center;
+	display: flex;
+    justify-content: center;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.imgs{
+	margin: 5%;
+	border: 5px solid yellow;
+	width: 40%;
+	border-radius: 5%;
+}
+
+.ocntext{
+	font-size: 24px;
+	font-family: 'Gabarito', cursive;
+}
+.zagolovok{
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+}
+
+.paragraph{
+	width: 40%;
+	margin: 5%;
+/*	height: 45vh;*/
+}
+
+
+.but{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Gabarito', cursive;
+	text-align: center;
+	margin-left: 40%;
+	display: inline;
+	border-radius: 10px;
+	color: #00AB00;
+	border: 4px solid #00AB00;
+}
+
+.but:hover{
+	background-color: #00AB00;
+	color: white;
+}
+
+footer{
+	min-height: 15vh;
+	background-color: #2a2136;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+#AllCot{
+	display: flex;
+	align-items: center;
+}
+
+#Cot{
+	width: 25%;
+	height: 5%;
+}
+
+#textfooter{
+	color: white;
+	margin: 1%;
+	font-size: 34px;
+	font-family: 'Gabarito', cursive;
+}
+
+.imgcot{
+	min-height: 15%;
+	width: 15%;
+	margin: 1%;
+}
